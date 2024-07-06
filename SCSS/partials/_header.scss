@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(to bottom right, #D74B76, rgb(103, 63, 105));
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+/*Navbar*/
+.container-fluid {
+    margin: 0px 50px 0px 50px ;
+}
+.logo_nav {
+    width: 150px;
+}
+.link {
+    margin-right: 55px;
+}
+.nav-link{
+    color: rgb(249, 249, 249);
+}
+.btn-custom-nav {
+    background-color: #FB6D48;
+    padding: 1px 15px 1px 15px;
+    border-radius: 30px;
+    color: rgb(249, 249, 249);
+}
+.custom-navbar-bg {
+    background-color: rgba(212, 212, 212, 0.286); 
+}

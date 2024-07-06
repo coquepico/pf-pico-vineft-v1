@@ -1,204 +1,240 @@
+@charset "UTF-8";
 body {
-    background: linear-gradient(to bottom right, #D74B76, rgb(103, 63, 105));
-    margin: 0;
-    padding: 0;
-    color: aliceblue;
-}
-/*Navbar*/
-.container-fluid {
-    margin: 0px 50px 0px 50px ;
-}
-.logo_nav {
-    width: 150px;
-}
-.link {
-    margin-right: 55px;
-}
-.nav-link{
-    color: rgb(249, 249, 249);
-}
-.btn-custom-nav {
-    background-color: #FB6D48;
-    padding: 1px 15px 1px 15px;
-    border-radius: 30px;
-    color: rgb(249, 249, 249);
-}
-.custom-navbar-bg {
-    background-color: rgba(212, 212, 212, 0.286); 
-}
-/*Primero*/
-.titulo h1 {
-    font-size: 50px;
-    margin-top: 180px;
-}
-.titulo h2 {
-   font-weight: 30;
-   font-size: 28px;
-   margin-top: 30px;
-}
-.foto_finca {
-    width: 80%;
-    border-radius: 7%;
-}
-/* Cartas */
-.cartas {
-    display: flex;
-    align-items: center; 
-    background-color: rgba(240, 248, 255, 0.224);
-}
-.img-carta {
-    height: 250px;
-    transition: box-shadow 0.4s ease;
-    border-radius: 25px;
-}
-.img-carta:hover {
-    box-shadow: 4px 8px 16px rgba(85, 38, 77, 0.7);
-}
-/* Nos acopmañan */
-.titulo_incontainer{
-    font-size: 40px;
-}
-.logo_bodega {
-    width: 100%;
-    transition: transform 0.3s ease;
-}
-.logo_bodega:hover {
-    transform: scale(1.25);
-}
-.foto_proceso {
-    width: 100%;
-}
-/* Proceso */
-.titulo_incontainer_proceso {
-    font-size: 65px;
-}
-.proceso__col__subtitulo {
-    font-weight: 100;
-    font-size: 25px; 
-}
-/* Nosotros */
-.foto_perfil {
-    border-radius: 100%;
-    width: 350px;
-    transition: transform 1.3s ease;
-}
-.foto_perfil:hover {    
-    transform: rotate(360deg);
-}
-.linkedin {
-    width: 40px;
-    transition: transform 0.3s ease;
-}
-.linkedin:hover {
-    transform: scale(1.25);
-}
-/* Contacto */
-.btn-custom {
-    background-color: #FB6D48;
-    padding: 3px 15px 3px 15px;
-    border-radius: 30px;
-    color: rgb(249, 249, 249);
-}
-/* Footer */
-footer {
-    height: 250px;
-    background-color: rgba(212, 212, 212, 0.055); 
-}
-.semifooter {
-    border-top: 2px solid rgba(160, 160, 160, 0.371);
-    height: 100%;
-    width: 90%;
-    display: flex;
-    margin: auto;
-    flex-wrap: wrap;
-}
-.redes {
-    width: 50px;
-    padding-right: 7px;
-    padding-bottom: 20px;
-    transition: transform 0.3s ease;
-}
-.redes:hover {
-    transform: scale(1.25);
-}
-.logos_footer img {
-    width: 200px;
-    padding-right: 10px;
-    padding-bottom: 20px;
-}
-.custom-list-inline-item {
-    margin-right: 50px !important;
+  background: linear-gradient(to bottom right, #D74B76, rgb(103, 63, 105));
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
 }
 
+/*Navbar*/
+.container-fluid {
+  margin: 0px 50px 0px 50px;
+}
+
+.logo_nav {
+  width: 150px;
+}
+
+.link {
+  margin-right: 55px;
+}
+
+.nav-link {
+  color: rgb(249, 249, 249);
+}
+
+.btn-custom-nav {
+  background-color: #FB6D48;
+  padding: 1px 15px 1px 15px;
+  border-radius: 30px;
+  color: rgb(249, 249, 249);
+}
+
+.custom-navbar-bg {
+  background-color: rgba(212, 212, 212, 0.286);
+}
+
+/*Primero*/
+.titulo h1 {
+  font-size: 50px;
+  margin-top: 180px;
+}
+
+.titulo h2 {
+  font-weight: 30;
+  font-size: 28px;
+  margin-top: 30px;
+}
+
+.foto_finca {
+  width: 80%;
+  border-radius: 7%;
+}
+
+/* Cartas */
+.cartas {
+  display: flex;
+  align-items: center;
+  background-color: rgba(240, 248, 255, 0.224);
+}
+
+.img-carta {
+  height: 250px;
+  transition: box-shadow 0.4s ease;
+  border-radius: 25px;
+}
+
+.img-carta:hover {
+  box-shadow: 4px 8px 16px rgba(85, 38, 77, 0.7);
+}
+
+/* Nos acopmañan */
+.titulo_incontainer {
+  font-size: 40px;
+}
+
+.logo_bodega {
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.logo_bodega:hover {
+  transform: scale(1.25);
+}
+
+.foto_proceso {
+  width: 100%;
+}
+
+/* Proceso */
+.titulo_incontainer_proceso {
+  font-size: 65px;
+}
+
+.proceso__col__subtitulo {
+  font-weight: 100;
+  font-size: 25px;
+}
+
+/* Nosotros */
+.foto_perfil {
+  border-radius: 100%;
+  width: 350px;
+  transition: transform 1.3s ease;
+}
+
+.foto_perfil:hover {
+  transform: rotate(360deg);
+}
+
+.linkedin {
+  width: 40px;
+  transition: transform 0.3s ease;
+}
+
+.linkedin:hover {
+  transform: scale(1.25);
+}
+
+/* Contacto */
+.btn-custom {
+  background-color: #FB6D48;
+  padding: 3px 15px 3px 15px;
+  border-radius: 30px;
+  color: rgb(249, 249, 249);
+}
+
+/* Footer */
+footer {
+  height: 250px;
+  background-color: rgba(212, 212, 212, 0.055);
+}
+
+.semifooter {
+  border-top: 2px solid rgba(160, 160, 160, 0.371);
+  height: 100%;
+  width: 90%;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.redes {
+  width: 50px;
+  padding-right: 7px;
+  padding-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.redes:hover {
+  transform: scale(1.25);
+}
+
+.logos_footer img {
+  width: 200px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+.custom-list-inline-item {
+  margin-right: 50px !important;
+}
+
+/* Vista Producto */
+.no-gutter {
+  --bs-gutter-x: 0 !important;
+}
+
+aside {
+  border-right: 2px solid rgba(160, 160, 160, 0.371);
+}
+
+.cont-prod {
+  width: 250px;
+  height: 220px;
+  background-color: rgba(248, 248, 248, 0.49);
+  border-radius: 35px;
+}
+
+.cont-info {
+  border-radius: 35px;
+  width: 60%;
+}
+
+.cont-vino {
+  background-color: rgba(240, 240, 240, 0.402);
+  border-radius: 35px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.botella {
+  height: 100%;
+}
 
 /*vista sesion*/
 .main_sesion {
-    height: 550px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .sesion_container {
-    background-color: rgba(221, 221, 221, 0.323);
-    height: 420px ;
-    width: 360px;
-    border-radius: 50px;  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/* Vista Producto */
-.no-gutter {
-    --bs-gutter-x: 0 !important;
-}    
-aside {
-    border-right: 2px solid rgba(160, 160, 160, 0.371);
-}
-.cont-prod {
-    width: 250px;
-    height: 220px;
-    background-color: rgba(248, 248, 248, 0.49);
-    border-radius: 35px;
-}
-.cont-info { 
-    border-radius: 35px;
-    width: 60%;
-}
-.cont-vino {
-    background-color: rgba(240, 240, 240, 0.402);
-    border-radius: 35px;
-    width: 40%;
-    display: flex;
-    justify-content: center;
-}
-.botella {
-    height: 100%;
+  background-color: rgba(221, 221, 221, 0.323);
+  height: 420px;
+  width: 360px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@media only screen and (max-width:991px){
-    .texto_footer {
-        display: none;
-    }
-    .btn-custom-nav {
-        background-color: transparent;
-        padding: 0;
-        ;
-    }
-    .redes {
-        width: 32px;
-        padding-right: 1px;
-        padding-bottom: 20px;
-    }
-    .logos_footer img {
-        width: 170px;
-    }
-}  
-
-@media only screen and (min-width:1500px){
-.cont-prod {
+@media only screen and (max-width: 991px) {
+  .texto_footer {
+    display: none;
+  }
+  .btn-custom-nav {
+    background-color: transparent;
+    padding: 0;
+  }
+  .redes {
+    width: 32px;
+    padding-right: 1px;
+    padding-bottom: 20px;
+  }
+  .logos_footer img {
+    width: 170px;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .cont-prod {
     width: 287px;
     height: 253px;
     background-color: rgba(248, 248, 248, 0.49);
     border-radius: 35px;
+  }
 }
-}
+
+/*# sourceMappingURL=styles.css.map */

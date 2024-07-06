@@ -1,0 +1,30 @@
+/* Footer */
+footer {
+    height: 250px;
+    background-color: rgba(212, 212, 212, 0.055); 
+}
+.semifooter {
+    border-top: 2px solid rgba(160, 160, 160, 0.371);
+    height: 100%;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.redes {
+    width: 50px;
+    padding-right: 7px;
+    padding-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+.redes:hover {
+    transform: scale(1.25);
+}
+.logos_footer img {
+    width: 200px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+.custom-list-inline-item {
+    margin-right: 50px !important;
+}

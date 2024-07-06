@@ -1,0 +1,16 @@
+/*vista sesion*/
+.main_sesion {
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sesion_container {
+    background-color: rgba(221, 221, 221, 0.323);
+    height: 420px ;
+    width: 360px;
+    border-radius: 50px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
