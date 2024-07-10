@@ -33,9 +33,10 @@
 .logo_bodega {
     width: 100%;
     transition: transform 0.3s ease;
-}
-.logo_bodega:hover {
+    
+    &:hover {
     transform: scale(1.25);
+    }
 }
 .foto_proceso {
     width: 100%;
@@ -53,17 +54,20 @@
     border-radius: 100%;
     width: 350px;
     transition: transform 1.3s ease;
-}
-.foto_perfil:hover {    
-    transform: rotate(360deg);
+   
+    &:hover {    
+        transform: rotate(360deg);
+        }
 }
 .linkedin {
     width: 40px;
     transition: transform 0.3s ease;
-}
-.linkedin:hover {
+    
+    &:hover {
     transform: scale(1.25);
+    }
 }
+
 /* Contacto */
 .btn-custom {
     background-color: #FB6D48;

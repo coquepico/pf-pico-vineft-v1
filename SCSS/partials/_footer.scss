@@ -16,9 +16,10 @@ footer {
     padding-right: 7px;
     padding-bottom: 20px;
     transition: transform 0.3s ease;
-}
-.redes:hover {
+    
+    &:hover {
     transform: scale(1.25);
+    }
 }
 .logos_footer img {
     width: 200px;
