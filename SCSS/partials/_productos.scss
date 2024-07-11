@@ -11,6 +11,21 @@ aside {
     background-color: rgba(248, 248, 248, 0.49);
     border-radius: 35px;
 }
+.textos {
+    font-size: 25px;
+    font-weight: 500;
+}
+.titulo_aside {
+    @extend .textos;
+}
+.cont-titulo{
+    @extend .textos;
+    line-height: 1.15;
+    margin-bottom: -4px;
+}
+.cont-texto{
+    font-weight: 500;
+}
 .cont-info { 
     border-radius: 35px;
     width: 60%;

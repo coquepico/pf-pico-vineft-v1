@@ -7,7 +7,7 @@ body {
 }
 
 /*Navbar*/
-.container-fluid {
+.container-fluid-custom {
   margin: 0px 50px 0px 50px;
 }
 
@@ -63,7 +63,6 @@ body {
   transition: box-shadow 0.4s ease;
   border-radius: 25px;
 }
-
 .img-carta:hover {
   box-shadow: 4px 8px 16px rgba(85, 38, 77, 0.7);
 }
@@ -172,6 +171,20 @@ aside {
   border-radius: 35px;
 }
 
+.textos, .cont-titulo, .titulo_aside {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.cont-titulo {
+  line-height: 1.15;
+  margin-bottom: -4px;
+}
+
+.cont-texto {
+  font-weight: 500;
+}
+
 .cont-info {
   border-radius: 35px;
   width: 60%;
@@ -205,6 +218,11 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.texto_bienvenido {
+  font-size: 40px;
+  font-style: normal;
 }
 
 @media only screen and (max-width: 991px) {
